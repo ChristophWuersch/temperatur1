@@ -1,0 +1,22 @@
+{
+    "name": "temperatur1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "magicbit": "github:emakefun/pxt-magicbit#e2704573f4fe05015d1d959ed7bf7a67d4cde2b6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
