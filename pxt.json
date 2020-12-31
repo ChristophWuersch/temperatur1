@@ -5,7 +5,9 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "magicbit": "github:emakefun/pxt-magicbit#e2704573f4fe05015d1d959ed7bf7a67d4cde2b6"
+        "magicbit": "github:emakefun/pxt-magicbit#e2704573f4fe05015d1d959ed7bf7a67d4cde2b6",
+        "HT16K33_Alnum4": "github:tinkertanker/pxt-alphanumeric-ht16k33#v1.0.6",
+        "Grove": "github:seeed-studio/pxt-grove#v0.4.1"
     },
     "files": [
         "main.blocks",
