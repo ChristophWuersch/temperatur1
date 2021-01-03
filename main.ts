@@ -9,9 +9,9 @@ basic.forever(function () {
         tm = pins.analogReadPin(AnalogPin.P3)
         temperatur = tm - tm % 5 / 5
         _4digit.show(temperatur)
-        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P8, 0)
         basic.pause(2000)
-        pins.digitalWritePin(DigitalPin.P0, 1)
+        pins.digitalWritePin(DigitalPin.P8, 1)
         basic.pause(2000)
     }
 })
